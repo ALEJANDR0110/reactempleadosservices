@@ -34,7 +34,6 @@ export default class ServicesEmpleados {
             axios.get(url + request).then((response) => {
                 console.log("Leyendo empleados por oficio...")
                 resolve(response.data)
-                console.log(response.data)
             })
         })
     }

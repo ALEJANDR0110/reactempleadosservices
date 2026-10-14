@@ -8,6 +8,7 @@ export default class Router extends Component {
     render() {
         function EmpleadosElement() {
             let {oficio} = useParams();
+            
             return(<EmpleadosComponent oficio={oficio} />)
         }
 

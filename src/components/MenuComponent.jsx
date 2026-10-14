@@ -49,7 +49,7 @@ export default class MenuComponent extends Component {
                                         this.state.oficios.map((oficio, index) => {
                                             return (
                                                 <li key={index}>
-                                                    <NavLink className="dropdown-item" to={"/empleados/" + {oficio}} >
+                                                    <NavLink className="dropdown-item" to={"/empleados/" + oficio} >
                                                         {oficio}
                                                     </NavLink>
                                                 </li>

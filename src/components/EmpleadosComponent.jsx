@@ -12,7 +12,6 @@ export default class EmpleadosComponent extends Component {
             this.setState({
                 empleados: result
             })
-            console.log(result)
         })
     }
 
